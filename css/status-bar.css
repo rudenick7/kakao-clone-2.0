@@ -3,7 +3,6 @@
 	display: flex;
 	justify-content: space-between;
 	color: #656565;
-	align-items: center;
 }
 
 .status-bar i {
