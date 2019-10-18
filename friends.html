@@ -10,16 +10,17 @@
 </head>
 <body>
     <div class="status-bar">
-        <div class="status-bar"__column>
+        <div class="status-bar__column">
             <span class="status-bar__clock"> 01:30 </span>
         </div>
-        <div class="status-bar"__column></div>
+        <div class="status-bar__column">
             <i class="far fa-clock"></i>
             <i class="fas fa-volume-mute"></i>
             <i class="fas fa-wifi"></i>
             <span class="status-bar__battery-level">100%</span>
             <i class="fas fa-battery-full"></i>
         </div>
+    </div>
     <header class="header">
         <div class="header__header-column">
             <h1 class="header__title"> Friends </h1>
@@ -40,10 +41,10 @@
                     <img src="images/avatar.jpg" class="g-avatar friend__avatar">     
                     <div class="friend__content">
                         <span class="friend__name">
-                            Hwang SunJu
+                            Rudenick
                         </span>
                         <span class="friend__status">
-                            Hello, JJUNG
+                            Hello, Runner
                         </span>
                     </div> 
                 </div>               
@@ -65,25 +66,26 @@
         <ul class="friends__list">
             <h5 class="friends__title">Friend 1</h5>
             <li class="friends__friend friend freind--lg">
-                <div class="friend__column">
-                    <img src="images/avatar.jpg" class="friend__avatar">     
-                    <div class="friend__content">
-                        <span class="friend__name">
-                            Hwang SunJu
-                        </span>
-                        <span class="friend__status">
-                            Hello, JJUNG
-                        </span>
+                <a href="chat.html">
+                    <div class="friend__column">
+                        <img src="images/avatar.jpg" class="friend__avatar">     
+                        <div class="friend__content">
+                            <span class="friend__name">
+                                Rudenick
+                            </span>
+                            <span class="friend__status">
+                                Hello, Runner
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <div class="friend__column">
-                    <div class="friend__now-listening">
-                        <span class="">
-                            Karder-garden--Tree
-                            <i class="fas fa-play"></i>
-                        </span>
+                    <div class="friend__column">
+                        <div class="friend__now-listening">
+                            <span class="">
+                                Karder-garden--Tree <i class="fas fa-play"></i>
+                            </span>
+                        </div>
                     </div>
-                </div>
+                </a>
             </li>
         </ul>
     </main>
@@ -96,6 +98,7 @@
             </li>
             <li class="nav__list-item">
                 <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">26</div>
                     <i class="far fa-comment"></i>
                 </a>
             </li>
@@ -111,5 +114,7 @@
             </li>
         </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen!</span>
 </body>
 </html>
